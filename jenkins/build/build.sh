@@ -1,6 +1,6 @@
 #!/bin/bash
 # Copia el jar
-cp -f java-app/target/*.jar jenkins/build/
+cp -f app/target/*.jar jenkins/build/
 echo "######################"
 echo "*** Building image ***"
 echo "######################"
